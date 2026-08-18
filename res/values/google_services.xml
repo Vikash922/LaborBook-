@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_app_id" translatable="false">1:1027179208222:android:ac3483799fc5ed6c6a580f</string>
+    <string name="gcm_defaultSenderId" translatable="false">1027179208222</string>
+    <string name="default_web_client_id" translatable="false">1027179208222-2hhdrgohaaa7ed068smm0tekptejq4k8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://laborbook-4c47e-default-rtdb.firebaseio.com</string>
+    <string name="google_api_key" translatable="false">AIzaSyAMeOVp4gfkmBrOv_uMfOUuokXHQLFwFZY</string>
+    <string name="google_storage_bucket" translatable="false">laborbook-4c47e.firebasestorage.app</string>
+    <string name="project_id" translatable="false">laborbook-4c47e</string>
+</resources>
