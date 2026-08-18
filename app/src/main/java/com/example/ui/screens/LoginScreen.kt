@@ -524,6 +524,29 @@ fun LoginScreen(
                 }
             }
 
+            Spacer(modifier = Modifier.height(14.dp))
+
+            // Direct Entry / Offline Mode Button
+            OutlinedButton(
+                onClick = {
+                    viewModel.skipLoginAndEnter()
+                },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(48.dp),
+                shape = RoundedCornerShape(12.dp),
+                border = BorderStroke(1.dp, Color(0xFFCBD5E1)),
+                colors = ButtonDefaults.outlinedButtonColors(containerColor = Color.Transparent)
+            ) {
+                Text(
+                    text = "Skip & Start Using App Directly",
+                    color = LaborBlue,
+                    fontSize = 14.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = appFontFamily
+                )
+            }
+
             Spacer(modifier = Modifier.height(32.dp))
 
             // Minimal 3-Feature Trust Badges Row

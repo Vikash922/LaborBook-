@@ -185,6 +185,11 @@ class LaborViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    fun skipLoginAndEnter() {
+        _currentScreen.value = Screen.LaborHome
+        _selectedTabIndex.value = 0
+    }
+
     fun selectTab(index: Int) {
         _selectedTabIndex.value = index
         when (index) {
